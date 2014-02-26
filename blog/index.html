@@ -19,12 +19,12 @@ title: Blog Busca Corporativa
             <div class="col-sm-6 col-md-4 col-lg-4">
                 <div class="thumbnail">
                     <a href="{{ post.url }}">
-                        <div class="thumbPost" style="background-image: url('/beta{{ post.featimage }}'); background-position: center;"></div>
+                        <div class="thumbPost" style="background-image: url('{{ post.featimage }}'); background-position: center;"></div>
                     </a>
                     <div class="caption">
                         <p class="miniData">{% include themes/estorage/date.md %}</p>
                         <h3>{{ post.title }}</h3>
-                        <p><a href="/beta{{ BASE_PATH }}{{ post.url }}" class="btn btn-laranjaVazado" role="button">Leia</a></p>
+                        <p><a href="{{ BASE_PATH }}{{ post.url }}" class="btn btn-laranjaVazado" role="button">Leia</a></p>
                     </div>
                 </div>
             </div>
@@ -38,13 +38,13 @@ title: Blog Busca Corporativa
                   {% if paginator.page == 2 %}
                     <a href="blog" class="previous">Anterior</a>
                   {% elsif paginator.previous_page %}
-                    <a href="/beta/blog/page{{ paginator.previous_page }}" class="previous">Anterior</a>
+                    <a href="/blog/page{{ paginator.previous_page }}" class="previous">Anterior</a>
                   {% else %}
                     <span class="previous">Anterior</span>
                   {% endif %} | 
                   <span class="page_number ">Pág. {{ paginator.page }} de {{ paginator.total_pages }}</span>
                    | {% if paginator.next_page %}
-                    <a href="/beta/blog/page{{ paginator.next_page }}" class="next">Próxima</a>
+                    <a href="/blog/page{{ paginator.next_page }}" class="next">Próxima</a>
                   {% else %}
                     <span class="next ">Próxima</span>
                   {% endif %}

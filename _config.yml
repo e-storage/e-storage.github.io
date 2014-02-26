@@ -4,7 +4,7 @@ permalink: :categories/:title.html
 
 host:        0.0.0.0
 port:        4000
-baseurl:     /beta
+baseurl:     /
 
 exclude: [".rbenv-version", "README.md", "Rakefile", "CNAME"]
 auto: true
@@ -13,10 +13,10 @@ pygments: true
 #Lista de páginas (na ordem desejada) para o menu principal e seus respectivos links
 navigation:
   - 
-    url : '/beta'
+    url : '/'
     text : 'Home'
   - 
-    url : '/beta/blog/index.html'
+    url : '/blog/index.html'
     text : 'Blog'
     layout : 'post'
   - 
@@ -24,13 +24,13 @@ navigation:
     text : 'Soluções'
     layout : 'solucoes'
   - 
-    url : '/beta/produtos/index.html'
+    url : '/produtos/index.html'
     text : 'Produtos'
   - 
-    url : '/beta/clientes/index.html'
+    url : '/clientes/index.html'
     text : 'Clientes'
   - 
-    url : '/beta/contato/index.html'
+    url : '/contato/index.html'
     text : 'Contato'
   
 # Themes are encouraged to use these universal variables 
@@ -52,7 +52,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://e-storage.github.io/beta
+production_url : http://e-storage.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -67,7 +67,7 @@ JB :
   # Leave this blank if you have defined a CNAME for your site (pages.github.com)
   # NOTE: When in localhost, your site will run from root "/" regardless of BASE_PATH
   #
-  BASE_PATH : http://e-storage.github.io/beta
+  BASE_PATH : http://e-storage.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
