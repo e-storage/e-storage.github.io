@@ -10,6 +10,12 @@ body {
     line-height: 25px;
 }
 
+@media (max-width: 767px) {
+    body {
+        margin-top: 0px;
+    }
+}
+
 h1,
 h2,
 h3,
