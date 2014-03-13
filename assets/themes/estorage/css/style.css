@@ -453,6 +453,8 @@ footer p {
 /* Definir o tamanho do swiper: */
 .swiper-container, .swiper-slide {
   background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #000;
   height: 325px;
 }
 
