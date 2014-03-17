@@ -1,14 +1,20 @@
     <!-- FOOTER -->
     <footer>
         <script type="text/javascript">
-            $(document).ready(function(){
-              var mySwiper = $('.swiper-container').swiper({
+                var mySwiper = $('.swiper-container').swiper({
                 autoplay:5000,
                 speed:2000,
                 mode:'horizontal',
                 loop: false,
-              });
-            })    
+            });
+            $('.arrow-left').on('click', function(e){
+                e.preventDefault(),
+                mySwiper.swipePrev()
+            })
+            $('.arrow-right').on('click', function(e){
+                e.preventDefault(),
+                mySwiper.swipeNext()
+            })
         </script>
         <div class="container">
             <p class="text-center"><a href="/">E-Storage</a> – 0800-643-4664<br />Avenida Unisinos, 950 - Centro Empresarial Padre Rick SJ, sala 306, 93022-000 - São Leopoldo, RS</p>
