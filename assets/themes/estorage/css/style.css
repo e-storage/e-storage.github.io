@@ -12,7 +12,7 @@ body {
 
 @media (max-width: 767px) {
     body {
-        margin-top: 0px;
+        margin-top: 56px;
     }
 }
 
@@ -75,7 +75,7 @@ h6,
 
 @media (max-width: 767px) {
     .navbar-brand {
-        padding: 18px 0 0 16px;
+        padding-top: 12px;
     }
 }
 
@@ -140,28 +140,38 @@ h6,
   background-color: transparent;
 }
 
-/*.navbar-main .navbar-toggle {
-  border-color: #dddddd;
-}*/
+.navbar-main .navbar-toggle {
+    padding: 14px 16px;
+    margin-right: 0px;
+    border-color: transparent;
+}
+
+.navbar-main .navbar-search {
+    padding: 7px 10px 10px 10px;
+}
 
 .navbar-main .navbar-toggle:hover,
 .navbar-main .navbar-toggle:focus {
-  background-color: #dddddd;
+    background-color: #f9f9fa;
+    /*box-shadow: inset 0px 1px 1px #ccc;*/
 }
 
 .navbar-main .navbar-toggle .icon-bar {
-  background-color: #cccccc;
+  background-color: #f26b36;
 }
 
 .navbar-main .navbar-collapse,
 .navbar-main .navbar-form {
     background: #5189c7;
-    border-color: #fff;
+    border-color: #5189c7;
 }
 
 @media (max-width: 767px) {
     .navbar-form {
         margin-right: 0px;
+        border: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
     }
 }
 
@@ -260,7 +270,7 @@ h6,
 
 @media (max-width: 767px) {
     .input-busca {
-        width: 179px !important;
+        width: 100% !important;
     }
 }
 
