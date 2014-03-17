@@ -70,7 +70,7 @@ h6,
 }
 
 .navbar-brand {
-	padding: 8px 15px;
+    padding: 8px 15px;
 }
 
 @media (max-width: 767px) {
@@ -84,6 +84,14 @@ h6,
   border: none;
 }
 
+@media (max-width: 767px) {
+    .navbar-main {
+      background-color: #f9f9fa;
+      border-bottom: 1px solid #e1e1e1;
+    }
+}
+
+
 .navbar-main .navbar-brand {
   color: #ffffff;
 }
@@ -91,7 +99,7 @@ h6,
 .navbar-main .navbar-brand:hover,
 .navbar-main .navbar-brand:focus {
   color: #ffffff;
-  background-color: #497bb3;
+  background-color: transparent;
 }
 
 .navbar-main .navbar-text {
@@ -147,7 +155,8 @@ h6,
 
 .navbar-main .navbar-collapse,
 .navbar-main .navbar-form {
-  border-color: #fff;
+    background: #5189c7;
+    border-color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -218,7 +227,7 @@ h6,
 
 .input-busca {
     margin-right: 12px;
-
+    display: inline-block;
 	border: 1px solid #a3a3a3;
 	height: 48px;
 	-moz-border-radius: 4px;
@@ -246,6 +255,12 @@ h6,
 @media (min-width: 768px) and (max-width: 991px) {
     .input-busca {
         width: 479px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .input-busca {
+        width: 179px !important;
     }
 }
 

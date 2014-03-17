@@ -36,7 +36,7 @@
 </head>
     
 <body>
-	<header class="navbar navbar-inverse navbar-fixed-top navbar-main hidden-xs" role="navigation">
+	<header class="navbar navbar-inverse navbar-fixed-top navbar-main" role="navigation">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-principal">
               <span class="sr-only">Toggle navigation</span>
@@ -44,6 +44,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+            <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="/"><img src="{{ ASSET_PATH }}/img/logo_E.png"></a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse-principal">
 		    <ul class="nav navbar-nav hidden-sm hidden-md hidden-lg">
@@ -74,12 +75,11 @@
 				</div><!-- .col -->
 			</div><!-- .row -->
 		</div><!-- .container -->
-
-	</header><!-- HEADER -->
-    
-    <div class="jumbotron">
-	    <div class="container">
-	        <div class="navbar-header">
+    </header><!-- HEADER -->
+        
+    <div class="jumbotron hidden-xs">
+        <div class="container">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -92,9 +92,9 @@
                 <form class="navbar-form navbar-left" role="search">
                     <div class="form-group">
                         <input type="text" class="form-control input-busca" placeholder="Busca">
+                        <button type="submit" class="btn btn-busca">Buscar</button>
                     </div>
-                    <button type="submit" class="btn btn-busca">Buscar</button>
                 </form>
             
-	    </div>
-	</div><!-- .jumbotron -->
+        </div>
+    </div><!-- .jumbotron -->
