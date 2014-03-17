@@ -1,11 +1,13 @@
     <!-- FOOTER -->
     <footer>
+        <link href="{{ ASSET_PATH }}/css/idangerous.swiper.css" rel="stylesheet">
+        <script src="{{ ASSET_PATH }}/js/idangerous.swiper.min.js"></script>
         <script type="text/javascript">
                 var mySwiper = $('.swiper-container').swiper({
                 autoplay:5000,
                 speed:2000,
                 mode:'horizontal',
-                loop: false,
+                loop: true,
             });
             $('.arrow-left').on('click', function(e){
                 e.preventDefault(),
