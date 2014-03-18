@@ -510,8 +510,15 @@ footer p {
 }
 
 .swiper-slide .caixaMagica {
-    width: 740px;
+    width: 80%;
+    font-size: 0.8em;
 }
+
+    @media (max-width: 767px;) {
+        .caixaMagica {
+            width: 80% !important;
+        }
+    }
 
 .swiper-slide .caixaMagica h1 {
     color: #fff;
@@ -581,6 +588,12 @@ footer p {
     width: 620px;
     text-align: center;
 }
+
+    @media (max-width: 767px;) {
+        .swiper-slide .brasil2014 {
+            width: 80%;
+        }
+    }
 
 .swiper-slide .brasil2014 h1 {
     color: #fff;

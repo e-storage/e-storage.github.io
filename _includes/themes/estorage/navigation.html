@@ -15,7 +15,11 @@
                     <li><a href="/solucoes/GED.html">GED</a></li>
                 </ul>
         </li>
-    {% else %}
+{% elsif link.text == 'Contato' %}    
+        <li class="{{ current }} hidden-sm">
+            <a href="{{ link.url }}">{{ link.text }}</a>
+        </li>
+{% else %}
         <li class="{{ current }}">
             <a href="{{ link.url }}">{{ link.text }}</a>
         </li>
