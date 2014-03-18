@@ -475,7 +475,7 @@ footer p {
     line-height: 25px;
 }
 
-#map-canvas { height: 100% }
+#map-canvas { height: 400px; }
 
 /* SWIPER */
 
