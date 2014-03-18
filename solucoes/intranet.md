@@ -36,10 +36,11 @@ Redução do tempo de lançamento de produtos <br />
 Aumento na qualidade do produto <br />
 Satisfação dos funcionários
 
-
+<!--
 ##Veja o case do Banrisul
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 (link para o Banrisul na página de clientes que ainda será elaborada)
 
 → Veja a lista completa de vantagens na página do GSA
+-->

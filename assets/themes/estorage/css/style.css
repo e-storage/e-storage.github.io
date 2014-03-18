@@ -206,7 +206,7 @@ h6,
 
 @media (max-width: 767px) {
   .navbar-main .navbar-nav .open .dropdown-menu > li > a {
-    color: #777777;
+    color: #ffffff;
   }
   .navbar-main .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-main .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -475,7 +475,10 @@ footer p {
     line-height: 25px;
 }
 
-/* Definir o tamanho do swiper: */
+#map-canvas { height: 100% }
+
+/* SWIPER */
+
 .swiper-container, .swiper-slide {
   background-position: center center;
   background-repeat: no-repeat;
@@ -510,15 +513,9 @@ footer p {
 }
 
 .swiper-slide .caixaMagica {
-    width: 80%;
+    width: 90%;
     font-size: 0.8em;
 }
-
-    @media (max-width: 767px;) {
-        .caixaMagica {
-            width: 80% !important;
-        }
-    }
 
 .swiper-slide .caixaMagica h1 {
     color: #fff;
@@ -576,6 +573,14 @@ footer p {
     }
 }
 
+@media (max-width: 767px) {
+
+    .swiper-slide .judiciario {
+        width: 90%;
+    }
+    
+}
+
 .swiper-slide .judiciario .btn {
     margin-top: 0;
 }
@@ -589,11 +594,11 @@ footer p {
     text-align: center;
 }
 
-    @media (max-width: 767px;) {
-        .swiper-slide .brasil2014 {
-            width: 80%;
-        }
-    }
+@media (max-width: 767px;) {
+.swiper-slide .brasil2014 {
+    width: 80%;
+}
+}
 
 .swiper-slide .brasil2014 h1 {
     color: #fff;
@@ -609,6 +614,12 @@ footer p {
     font-weight: normal;
     text-shadow: none;
     line-height: 36px;
+}
+
+@media (max-width: 767px;) {
+    .swiper-slide .brasil2014 p {
+        margin-top: 60px;
+    }
 }
 
 .swiper-slide-content .btn {	

@@ -31,11 +31,11 @@ Economia com suporte técnico
 Quanto mais informações seus clientes encontrarem no site para resolver seus problemas, menos ligações de suporte precisarão ser realizadas
 90% dos clientes que pretendem comprar pela internet, recorrem à busca para tirar suas dúvidas (Harris Interactive)
 
-
-
+<!--
 *
 Veja o case da Petrobras
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 (link para a Petrobras na página de clientes que ainda será elaborada)
 → Veja a lista completa de vantagens na página do GSA
+-->
