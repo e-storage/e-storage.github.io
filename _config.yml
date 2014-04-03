@@ -18,21 +18,21 @@ navigation:
     url : '/'
     text : 'Home'
   -
-    url : '/blog/index.html'
+    url : '/blog'
     text : 'Blog'
     layout : 'post'
   -
-    url : ''
+    url : '/solucoes'
     text : 'Soluções'
     layout : 'solucoes'
   -
-    url : '/produtos/index.html'
+    url : '/produtos'
     text : 'Produtos'
   -
-    url : '/clientes/index.html'
+    url : '/clientes'
     text : 'Clientes'
   -
-    url : '/contato/index.html'
+    url : '/contato'
     text : 'Contato'
 
 # Themes are encouraged to use these universal variables
