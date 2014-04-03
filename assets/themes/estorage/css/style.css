@@ -243,11 +243,11 @@ h6,
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px; /* border radius */
-	
+
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;	
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
 @media (min-width: 1200px) {
@@ -308,7 +308,7 @@ h6,
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box; /* prevents bg color from leaking outside the border */
 	background-color: #f16b35; /* layer fill content */
-	
+
 	color: #fff;
 	font-size: 16px;
 	font-weight: lighter;
@@ -322,7 +322,7 @@ h6,
 	font-size: 16px;
 	font-weight: lighter;
 	border: 1px solid #a14825;
-	
+
 	box-shadow: 0px 1px 1px #ccc;
 	background-color: #f16b35; /* layer fill content */
 	}
@@ -345,7 +345,7 @@ h6,
     color: #f26b36;
 	font-weight: lighter;
 	border: 1px solid #f26b36;
-	
+
 	box-shadow: 0px 1px 1px #ccc;
 	}
 
@@ -371,7 +371,7 @@ h6,
 .thumbPost {
     width: 352px;
     max-width: 100%;
-    height: 117px; 
+    height: 117px;
     box-shadow: 0px 27px 15px -30px #000;
 }
 
@@ -578,7 +578,7 @@ footer p {
     .swiper-slide .judiciario {
         width: 90%;
     }
-    
+
 }
 
 .swiper-slide .judiciario .btn {
@@ -622,14 +622,14 @@ footer p {
     }
 }
 
-.swiper-slide-content .btn {	
+.swiper-slide-content .btn {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	
+
 	color: #fff;
 	font-size: 13px;
 	width: 110px;
@@ -665,20 +665,3 @@ footer p {
 .swiper-slide-content .btn-laranja:hover {
 	box-shadow: 0px 1px 1px #333;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
