@@ -8,56 +8,54 @@ title: Contato
 <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
   <div class="row">
-
-    <div class="hidden-xs hidden-sm col-md-1 col-lg-1"></div>
+    <br style="clear:both;" /><br style="clear:both;" />
+    <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
 
     <div class="col-sm-8 col-md-4 col-lg-4">
 
       <input type=hidden name="oid" value="00D70000000J0vQ">
       <input type=hidden name="retURL" value="http://e-storageonline.com.br/contato">
 
-      <label for="first_name">Nome</label>
       <div class="input-group-lg">
-        <input  id="first_name" class="form-control" maxlength="40" name="first_name" size="20" type="text" />
+        <input  id="first_name" class="form-control form-line" maxlength="40" name="first_name" size="20" type="text" />
+        <label for="first_name">Nome completo</label>
       </div>
 
-      <label for="last_name">Sobrenome</label>
       <div class="input-group-lg">
-        <input  id="last_name" class="form-control" maxlength="80" name="last_name" size="20" type="text" />
-      </div>
-
-      <label for="email">Email</label>
-      <div class="input-group-lg">
-        <input  id="email" class="form-control" maxlength="80" name="email" size="20" type="text" />
-      </div>
+        <input  id="email" class="form-control form-line" maxlength="80" name="email" size="20" type="text" />
+        <label for="email">Email</label>
     </div>
+    </div>
+
     <div class="col-sm-8 col-md-4 col-lg-4">
 
-      <label for="company">Empresa</label>
       <div class="input-group-lg">
-        <input  id="company" class="form-control" maxlength="40" name="company" size="20" type="text" />
+        <input  id="company" class="form-control form-line" maxlength="40" name="company" size="20" type="text" />
+        <label for="company">Empresa</label>
       </div>
 
-      <label for="city">Cidade</label>
       <div class="input-group-lg">
-        <input  id="city" class="form-control" maxlength="40" name="city" size="20" type="text" />
+        <input  id="city" class="form-control form-line" maxlength="40" name="city" size="20" type="text" />
+        <label for="city">Cidade/estado</label>
       </div>
 
-      <label for="state">Estado/província</label>
-      <div class="input-group-lg">
-        <input  id="state" class="form-control" maxlength="20" name="state" size="20" type="text" />
-      </div>
     </div>
+
+    <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
+
   </div>
   <br>
   <div class="row">
-    <div class="hidden-xs hidden-sm col-md-1 col-lg-1"></div>
+    <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
     <div class="col-md-8 col-lg-8">
-      <label for="00N70000002HWjz">Como podemos ajuda-lo?:</label>
-      <textarea  id="00N70000002HWjz" class="form-control" name="00N70000002HWjz" rows="5" type="text" wrap="soft"></textarea>
-      <br>
-      <input class="btn btn-laranja" type="submit" name="submit">
+      <div class="input-group-lg">
+        <textarea id="00N70000002HWjz" class="form-control form-line" name="00N70000002HWjz" rows="5" type="text" wrap="soft"></textarea>
+        <label for="00N70000002HWjz">Como podemos ajudá-lo?:</label>
+        <br>
+        <input class="btn btn-laranja" type="submit" name="submit" value="Enviar" style="margin-left: 16px;">
+      </div>
     </div>
+    <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
   </div>
 </form>
 

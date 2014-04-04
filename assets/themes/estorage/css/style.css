@@ -274,6 +274,25 @@ h6,
     }
 }
 
+.input-group-lg .form-line {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0;
+	box-shadow: none;
+	font-weight: lighter;
+}
+
+	.input-group-lg textarea.form-line {
+		height: 102px;
+		box-shadow: inset 0px 1px 2px #a3a3a3;
+	}
+
+.input-group-lg label {
+	margin: 0 0 30px 16px;
+	border-top: 2px solid #ccc;
+	font-weight: normal;
+}
+
 .form-control:-moz-placeholder {
 	font-weight: lighter;
 }
@@ -653,6 +672,10 @@ footer p {
     font-weight: lighter;
 	border: 1px solid #f26b36;
 	background-color: #f26b36;
+}
+
+input:active.btn-laranja, input:focus.btn-laranja {
+	color: #fff;
 }
 
 .btn-laranja:hover {
